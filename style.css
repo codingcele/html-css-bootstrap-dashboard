@@ -5,24 +5,114 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
-    height: 100vh;
-    width: 100vw;
-}
-
-header {
-    position: fixed;
-    z-index: 1;
-    height: 60px;
-    width: 100%;
+.header-color {
     background-color: rgb(248, 249, 250);
 }
 
+.bk-white {
+    background-color: white;
+}
+
+.padding-top-bottom-15 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.padding-left-rigth-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.padding-left-rigth-10 {
+    padding: 0 10px 0 10px;
+}
+
+.height-40 {
+    height: 40px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.higher {
+    height: 50px;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.search_bar {
+    height: 80%;
+    background-color: rgb(229, 229, 229);
+    border-radius: 5px 5px 5px 5px;
+}
+
+#search_insert {
+    border: 0;
+    background-color: rgb(229, 229, 229);
+    height: 100%;
+    padding-right: 0;
+}
+
+.search_lens {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(229, 229, 229);
+    padding-left: 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.logo-column {
+    display: flex;
+    height: 100%;
+}
+
+.logo_img {
+    height: 100%;
+    width: auto;
+}
+
+.logo_name {
+    color: rgb(0, 22, 50);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.search_bar {
+    display: flex;
+    align-items: center;
+}
+
+.cont_head_symb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.header_symbol {
+    font-size: 20px;
+}
+
+.bell {
+    color: orange;
+}
+
 .left-column {
-    position: relative;
-    top: 60px;
-    width: 120px;
-    height: calc(100vh - 60px);
+    width: 150px;
+    height: calc(100vh - 80px);
     padding: 20px 10px;
     background-color: rgb(5, 30 , 52);
 }
@@ -34,8 +124,32 @@ header {
     height: 100%;
 }
 
+.home, .stats, .signals, .admin {
+    width: 7vw;
+}
+
+.content-top {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.content-bottom {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
 .white {
     color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
 }
 
 .content-top {
@@ -47,7 +161,7 @@ header {
 }
 
 .symbol {
-    width: 30px;
+    width: 34%;
 }
 
 .home {
@@ -70,14 +184,94 @@ header {
 }
 
 .title {
+    width: 60%;
+    padding-left: 6%;
     font-size: 14px;
 }
 
+.first-line-signs {
+    margin-bottom: 8px;
+}
+
+.boolean {
+    font-size: 24px;
+    display: inline;
+    margin-right: 5px;
+}
+
+.ovale {
+    display: inline;
+    font-size: 13px;
+    background-color: rgb(22, 91, 186);
+    padding: 3px 8px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.plus {
+    padding: 3px 6px;
+}
+
 .low-header {
+    display: flex;
+    align-items: center;
     position: absolute;
-    top: 60px;
-    left: 120px;
+    top: 70px;
+    left: 150px;
     height: 120px;
-    width: calc(100vw - 120px);
-    background-color: rgb(27, 114, 232)
+    width: calc(100vw - 150px);
+    background-color: rgb(27, 114, 232);
+    padding-left: 12px;
+}
+
+.studenti {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.counter {
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 990px) {
+    .logo_name {
+        display: none;
+    }
+    .logo-column {
+        justify-content: center;
+    }
+    .title {
+        display: none;
+    }
+    .left-column {
+        width: 80px;
+    }
+    .home, .stats, .signals, .admin {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .low-header {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        position: absolute;
+        top: 70px;
+        left: 80px;
+        height: 200px;
+        width: calc(100vw - 80px);
+        background-color: rgb(27, 114, 232)
+    }
+
+    .studenti {
+        margin-top: 25px;
+    }
+    
+    .dis {
+        display: none;
+    }
+    .cont_head_symb {
+        justify-content: flex-end;
+    }
 }
