@@ -620,14 +620,14 @@
     }
 }
 
-@media screen and (max-width: 1166px) {
+/* @media screen and (max-width: 1166px) {
     .font-size-11 {
         font-size: 8px;
     }
-}
+} */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .font-size-11 {
         font-size: 6px;
     }
-}
+} */
