@@ -1,0 +1,54 @@
+<nav class="left-column">
+        <div class="left-column-content white">
+            <div class="content-top">
+                <div class="home"><div class="symbol"><i class="fa-solid fa-house"></i></div><div class="title">Home</div></div>
+                <div class="stats"><div class="symbol"><i class="fa-solid fa-chart-simple"></i></div><div class="title">Stats</div></div>
+                <div class="signals"><div class="symbol"><i class="fa-solid fa-signal"></i></div><div class="title">Signals</div></div>
+            </div>
+            <div class="content-bottom">
+                <div class="admin"><div class="symbol"><i class="fa-solid fa-gear"></i></div><div class="title">Admin</div></div>
+            </div>
+        </div>     
+    </nav>
+
+    <div class="low-header">
+        <div class="col-8 ">
+            <div class="first-line-signs white">
+                <div class="boolean">Boolean</div>
+                <div class="ovale font-weight-increased">Piano blaze</div>
+            </div>
+            <div class="second-line-signs white font-weight-increased">
+                <div class="ovale">3 app</div>
+                <i class="fa-solid fa-angles-right"></i>
+                <div class="ovale dis">Boolean mobile app</div>
+                <div class="ovale dis">Boolean web app</div>
+                <div class="ovale dis">Boolean blog app</div>
+                <div class="ovale plus">+</div>
+            </div>
+        </div>
+        <div class="col-4 white">
+            <div class="studenti">Studenti online negli ultimi 30 minuti</div>
+            <div class="counter">125</div>
+        </div>
+    </div>
+
+    <div class="dashboard">
+        <div class="row margin-bottom-180">
+            <div class="col-lg-8">
+                <div class="next-classes">
+
+                </div>
+                <div class="faq">
+                    
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="todo">
+
+                </div>
+                <div class="graph">
+
+                </div>
+            </div>
+        </div>
+    </div>
