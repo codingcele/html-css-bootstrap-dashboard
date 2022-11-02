@@ -52,3 +52,18 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+<div class="container space-between">
+    <div class="row">
+        <div class="col-11">
+            Come posso accedere alle informazioni del mio account?
+        </div>
+        <div class="col-1 right">
+            &#8964;
+        </div>
+    </div>
+</div>

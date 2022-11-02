@@ -5,6 +5,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.display-block {
+    display: block;
+}
+
 .space-between {
     display: flex;
     justify-content: space-between;
@@ -24,12 +28,16 @@
     line-height: 24px;
 }
 
+.font-size-12 {
+    font-size: 12px;
+}
+
 .font-size-11 {
     font-size: 13px;
 }
 
-.font-size-12 {
-    font-size: 12px;
+.font-size-10 {
+    font-size: 10px;
 }
 
 .cont-circ-class {
@@ -133,6 +141,14 @@
     background-color: rgb(5, 30 , 52);
 }
 
+.padding-faq {
+    padding: 12px 0px 12px 0px;
+}
+
+.padding-5 {
+    padding: 5px;
+}
+
 .padding-top-bottom-15 {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -176,6 +192,10 @@
     padding-bottom: 10px;
 }
 
+.padding-bottom-15 {
+    padding-bottom: 15px;
+}
+
 .padding-top-bottom {
     padding: 3px 0px 3px 0px;
 }
@@ -187,6 +207,10 @@
 
 .padding-top-5 {
     padding-top: 5px;
+}
+
+.padding-top-10 {
+    padding-top: 10px;
 }
 
 .padding-top-20 {
@@ -205,6 +229,10 @@
 
 .height-40 {
     height: 40px;
+}
+
+.height-55 {
+    height: 55px;
 }
 
 .heigth-730 {
@@ -274,6 +302,10 @@
 
 .no-padding {
     padding: 0;
+}
+
+.padding-2 {
+    padding: 2px;
 }
 
 .padding-bottom-10 {
@@ -504,7 +536,7 @@
 }
 
 .faq {
-    min-height: 220px;
+    min-height: 222px;
 }
 
 .todo {
@@ -516,8 +548,35 @@
     min-height: 520px;
 }
 
+.graph-text-size {
+    height: 250px;
+    width: 100%;
+}
+
+.stats {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 .check {
     height: 40px;
+}
+
+.question {
+    height: calc(160px/3);
+}
+
+.full-height {
+    height: 100%;
+}
+
+.height-question {
+    height: calc(160px/3);
+}
+
+.line-height-question {
+    line-height: 100%;
 }
 
 .border-1px {
